@@ -1,0 +1,40 @@
+body{
+    display: block;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    
+}
+#container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo{
+    height: 800px;
+    width: 500px;
+}
+.escolha-universo{
+    align-items: center;
+    align-content: center;
+    height: 140px;
+    background-color: grey;
+    position: relative;
+}
+.escolha-heroi{
+    align-items: center;
+    align-content: center;
+    height: 140px;
+    background-color: grey;
+    position: relative;
+}
+.escolha-qtd{
+    align-items: center;
+    align-content: center;
+    height: 140px;
+    background-color: grey;
+    position: relative;
+}

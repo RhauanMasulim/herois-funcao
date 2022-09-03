@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="js/main.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heróis-Função</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>    
+    <div id="container">
+        <div class="conteudo">
+            <!-- Escolher o universo -->
+            <div class="escolha-universo">
+                <h1>Escolha um universo de HQ's</h1>
+                <input type="text" name="universo" id="universo">
+                <input type="button" value="Enviar" onclick="validarUniverso()">
+                <p id="respostaU">Resposta</p>
+            </div>
+            <!-- Escolher o herói -->
+            <div class="escolha-heroi">
+                <h2>Escolha um herói</h2>
+                <input type="text" name="herói" id="heroi">
+                <input type="button" value="Enviar" onclick="validarHeroi()">
+                <p id="respostaH">Resposta</p>
+            </div>
+            <!-- Escolher quantas vezes vai aparecer -->
+            <div class="escolha-qtd">
+                <h3>Escolha quantas vezes deseja que o herói apareça</h3>
+                <input type="number" name="txtn1" id="num1">
+                <input type="number" name="txtn2" id="num2">
+                <input type="button" value="Enviar" onclick="funcCalc()">
+
+                <input type="radio" name="opt" value="+" checked="true"> +
+                <input type="radio" name="opt" value="-"> -
+                <input type="radio" name="opt" value="/"> /
+                <input type="radio" name="opt" value="*"> *
+            </div>
+            <div id="mostrar-heroi"></div>
+        </div>
+    </div>
+</body>
+</html>
